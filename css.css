@@ -1,0 +1,439 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  line-height: 1.5em;
+  color: #3b3b3b;
+}
+
+a {
+  color: #409DFF;
+}
+
+a:hover {
+  color: #FF4747;
+}
+
+h1 {
+  margin: 1em 0;
+  line-height: 1.2em;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+h2 {
+  margin: 0.9em 0;
+  line-height: 1.3em;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 1.5em;
+}
+
+p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+hr {
+  border: 0;
+  background-color: #e2e2e2;
+  height: 1px;
+}
+
+blockquote {
+  background-color: #EEE;
+  border-left: 3px solid #AAA;
+  padding: 4px 10px;
+}
+
+blockquote > p {
+  margin: 0;
+  padding: 0;
+}
+
+.bar-courses {
+  padding: 4px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #FFF;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.bar-courses.is-floating {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.bar-courses-difficult {
+  display: inline-block;
+  padding: 4px;
+  margin-left: 10px;
+  color: white;
+  background: #409DFF;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.Main {
+  padding: 0 20px;
+  max-width: 790px;
+  margin: 0 auto;
+}
+
+.Top {
+  position: relative;
+  min-height: 80px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.Top-logo {
+  text-align: center;
+  line-height: 1em;
+  font-size: 49px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.Top > nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+
+}
+
+.Top > nav > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+  padding: 0 6px;
+}
+
+.Top > nav > a:hover {
+  color: #FF4747;
+}
+
+.Person {
+  padding-bottom: 30px;
+}
+
+.Person > img {
+  vertical-align: top;
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.Person-details {
+  display: inline-block;
+  max-width: 620px;
+  padding-left: 20px;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.Person-name {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.CTA {
+  display: block;
+  padding: 10px;
+  margin: 20px auto;
+  color: black;
+  border-radius: 3px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #7EB000;
+  background: #91e842;
+}
+
+a.CTA:hover {
+  color: black;
+  border-bottom-color: #6C9600;
+  background: #80CC39;
+}
+
+.Address {
+  padding-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Address address {
+  display: inline-block;
+}
+
+.Product {
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.Product-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.Product-title > a {
+  text-decoration: none;
+}
+
+.Product-link {
+  display: block;
+  text-align: center;
+}
+
+.Product-more {
+  color: #222222;
+}
+
+.PortfolioCase {
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.PortfolioCase > img {
+  max-width: 100%;
+  border: 1px solid #e2e2e2;
+}
+
+.Blog > header {
+  padding: 20px 0;
+}
+
+.Blog-list {
+}
+
+.PostExcerpt {
+  padding-left: 20px;
+  margin-bottom: 30px;
+  border-left: 1px solid #E6E6E6;
+}
+
+.PostExcerpt-title {
+  line-height: 1.2em;
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.PostExcerpt-title:hover {
+  color: #FF4747;
+}
+
+.Post {
+  padding-bottom: 30px;
+}
+
+.Post-title {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.Post-date {
+  position: relative;
+  top: 20px;
+  display: block;
+  text-align: right;
+  font-weight: 300;
+  font-size: 16px;
+  color: grey;
+}
+
+.Post-author {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #666;
+  text-align: center;
+}
+
+.Post-text img {
+  padding: 4px;
+  max-width: 100%;
+  border: 1px solid #EEE;
+}
+
+.post-authors-bio {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-align-items: center;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post-authors-bio-photos {
+  width: 76px;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.post-authors-bio-photo {
+  width: 64px;
+  border-radius: 64px;
+}
+
+.post-authors-bio-text {
+  flex-grow: 1;
+}
+
+.SubscriptionForm {
+  max-width: 460px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 4px;
+  background-color: #CFF1FF;
+}
+
+.SubscriptionForm-message {
+  margin-bottom: 20px;
+}
+
+.SubscriptionForm-label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.SubscriptionForm-field {
+  display: block;
+  width: 420px;
+  margin-bottom: 10px;
+  border: 1px solid #E2E2E2;
+  padding: 8px;
+}
+
+.SubscriptionForm-submit {
+  max-width: 420px;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #007AAB;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  white-space: normal;
+}
+
+.SubscriptionForm-nospam {
+  display: block;
+  padding-top: 6px;
+  color: #999;
+}
+
+.SubscriptionForm-success {
+  text-align: center;
+}
+
+.PainfulGuideFooter-people {
+  text-align: center;
+}
+
+.PainfulGuideFooter-person {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.PainfulGuideFooter-person > img {
+  vertical-align: top;
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.BtnGuidePainfulClients {
+  color: white;
+  background: #409DFF;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.u-centerText {
+  text-align: center;
+}
+
+.u-thinText {
+  font-weight: 300;
+}
+
+p code {
+  border: 1px solid #ddd;
+  padding: 2px 4px;
+  background: #f8f5ec;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 500px) {
+  .Top {
+    text-align: center;
+  }
+
+  .Top > nav {
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .Top > nav > a {
+    padding: 0 2px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  pre {
+    font-size: 14px;
+  }
+
+  .SubscriptionForm-field {
+    width: 100%;
+  }
+}
+
+.contact {
+    text-align: center;
+}
+
+hr {
+   margin-top: 5%;    
+}
+
+/* Social */
+.twitter-follow-button {
+  display: block;
+  margin-top: 8px;
+}      
